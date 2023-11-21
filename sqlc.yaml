@@ -1,8 +1,8 @@
 version: "2"
 sql:
   - engine: "postgresql"
-    queries: "queries/"
-    schema: "schema/"
+    queries: "DB/queries/"
+    schema: "DB/schema/"
     gen:
       go:
         package: "escwebapp"
